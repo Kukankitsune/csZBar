@@ -78,8 +78,8 @@
         } else {
             infoButtonIndex = 3;
         }
-        UIView *infoButton = [[[[[self.scanReader.view.subviews objectAtIndex:2] subviews] objectAtIndex:0] subviews] objectAtIndex:infoButtonIndex];
-        [infoButton setHidden:YES];
+        //UIView *infoButton = [[[[[self.scanReader.view.subviews objectAtIndex:2] subviews] objectAtIndex:0] subviews] objectAtIndex:infoButtonIndex];
+        //[infoButton setHidden:YES];
 
         //UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem]; [button setTitle:@"Press Me" forState:UIControlStateNormal]; [button sizeToFit]; [self.view addSubview:button];
         CGRect screenRect = [[UIScreen mainScreen] bounds];
